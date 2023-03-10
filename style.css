@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+body {
+  
+  flex-direction: column;
+
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Hammersmith One', sans-serif;
+  padding: 0;
+  
+
+}
+
+h1 {
+  color: #4765ff;
+}
+
+nav {
+  background-color: #683DFD;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color:#4765ff;
+}
+
+
+button {
+  height: 80px;
+  width: 200px;
+
+  background-color: #4765ff;
+  color: aliceblue;
+  
+
+}
+ button:hover{
+  background: linear-gradient(0deg, transparent, #683DFD, #683DFD);
+ 
+ }
+
+
+
+body {
+  background-color: #1b1E23;
+}
+
+h1 {
+  color: #683DFD;
+  
+}
+
+h1:hover{
+  color: #4765ff;
+  cursor: pointer;
+}
+
+h1 {
+  text-shadow: 3px 3px 4px #180E3B;
+  font-size: 80px;
+}
+
+h2:hover{
+  color: #4765ff;
+  cursor: pointer;
+}
+
+h2 {
+  color: #683DFD;
+  font-size: 40px;
+  text-shadow: 0px 0px 2px #8d6ff8;
+}
+
+input {
+  color: aliceblue;
+  border-radius: 3%;
+  background: linear-gradient(0deg, transparent, #683DFD, #4765ff);
+  height: 50px;
+  width: 200px;
+  font-size: 40px;
+  left: 300px;
+  box-shadow:  4px 4px 2px rgb(142, 101, 255);;
+}
+
+label {
+  color: #DEEBFF;
+  left: 20px;
+}
+
+.clrk {
+  
+  padding: 0;
+}
+
+
+
+button{
+  border-radius: 5%;
+  background: linear-gradient(0deg, transparent, #683DFD, #4765ff);
+  font-size: 20px;
+  border: #4765ff;
+  cursor: pointer;
+ 
+}
+
+
+.calculadora{
+   display: inline;
+   border-color: aqua;
+   
+}
+
+placeholder{
+  font-size: 15px;
+}
+
+.tudo{
+  display: flex;
+}
+
+.box {
+   background-color: #1b1E23;
+   width: 400px;
+   height: 800px;
+  box-shadow: 7px 10px 10px rgba(0,0,0,0.3);
+}
+
+
+.kkk{
+   background: linear-gradient(0deg, transparent, #683DFD, #683DFD );
+}
+
+
+hr{
+  color: #4765ff;
+  background-color: #4765ff;
+}
+footer{
+  align-items: center;
+  background: linear-gradient(0deg, transparent, #683DFD, #683DFD  );
+}
+
+h5{
+  color: #DEEBFF;
+  font-size: 20px;
+}
+
+.tabela{
+  font-size: 15px;
+  color: #DEEBFF;
+  width: 310px;
+  height: 210px;
+  box-shadow: 7px 10px 10px rgba(0,0,0,0.3);
+}
+
+h3{
+  color: #683DFD;
+}
